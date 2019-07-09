@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_spam10.tempo</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>tempo</name>
+        <script><![CDATA[var tempo = Class.create();
+tempo.prototype = {
+    initialize: function() {
+    },
+
+    type: 'tempo'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-09 17:14:03</sys_created_on>
+        <sys_id>e9a6fce1b7e23300cf70e2b9de11a97d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tempo</sys_name>
+        <sys_package display_value="spam10" source="sn_spam10">371570a1b7e23300cf70e2b9de11a9a4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="spam10">371570a1b7e23300cf70e2b9de11a9a4</sys_scope>
+        <sys_update_name>sys_script_include_e9a6fce1b7e23300cf70e2b9de11a97d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-09 17:14:03</sys_updated_on>
+    </sys_script_include>
+</record_update>
